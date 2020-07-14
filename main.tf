@@ -16,6 +16,7 @@ variable "resource_group_name" {
 }
 
 variable "resource_group_location" {
+  default = "West US 2"
   description = "The location of the resource group"
 }
 
@@ -25,7 +26,7 @@ variable "app_service_plan_name" {
 }
 
 variable "app_service_name_prefix" {
-  default = "tailspin-space-game-web"
+  default = "tailspin-space-game-web-dev-manaatmoon"
   description = "The beginning part of your App Service host name"
 }
 
